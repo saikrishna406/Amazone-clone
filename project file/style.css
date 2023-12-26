@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height:50px;
+    width: 100px;
+
+}
+.logo{
+    background-image: url(logo3.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    color: white;
+
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/**box2*/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left:3px;
+   
+}
+.adrees-icon{
+    display: flex;
+    align-items: center;
+}
+/**box3*/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size:1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/**box4*/
+span {
+    font-size:0.7rem;
+    font-weight:700;
+}
+/**box6*/
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**panel*/
+.panel{
+   height: 40px;
+    background-color:#222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.8rem;
+}
+.panel-deals{
+    font-size:0.9rem;
+    font-weight: 700;
+}
+/*herosection*/
+.hero-section{
+    background-image: url(amz.jpg);
+    height: 600px;
+    background-size: cover;
+   
+}
+/*shop section*/
+.shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color: #e2e7e6;
+}
+
+ .box{
+    height: 520px;
+    position: relative;
+    width: 20%;
+    background-color: white;
+    margin: 1rem;
+   
+    
+ }
+ 
+.shop-section h3{
+  padding-top: 10%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+    
+}
+ 
+ .box-conten{
+    margin-left:1rem;
+    margin-right:1rem;
+   
+ 
+ }
+ .column {
+    float: left;
+    width: 40%;
+    padding: 5px;
+
+
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .box-content h3{
+    color: #007185;
+    margin-left: 0.9rem;
+    
+ }
+ .box-content h2{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    
+ }
+ /*footerpanel*/
+ .footer-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    
+
+ }
+ .footer-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+ }
+ .footer-panel2 p{
+    padding-top: 10px;
+
+ }
+ ul a{
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    color:#dddddd
+ }
+ .footpanel3{
+    background-color: #222f3d;
+    color: white;
+    border-top:0.5px solid white; 
+    height: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+ }
+ .logo2 { 
+    background-image: url(logo3.png);
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+
+
+ }
+ .footpanel4{
+    height: 100px; ;
+    background-color: #0f1111;
+    color: white;
+   
+
+ }
+ .pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+ }
+ .copyright{
+    padding-top: 5px;
+    font-size: 0.8rem;
+    text-align: center;
+ }
